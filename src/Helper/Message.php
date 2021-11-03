@@ -1,10 +1,10 @@
 <?php
 
 
-namespace HaiXin\GeTui\Helper;
+namespace Tomeet\GeTui\Helper;
 
 use GuzzleHttp\Utils;
-use HaiXin\GeTui\Interfaces\NotPushInterface;
+use Tomeet\GeTui\Interfaces\NotPushInterface;
 
 class Message implements NotPushInterface
 {

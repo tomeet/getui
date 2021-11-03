@@ -2,7 +2,7 @@
 
 namespace Tests\GeTui;
 
-use HaiXin\GeTui\Helper\Filter;
+use Tomeet\GeTui\Helper\Filter;
 use Illuminate\Foundation\Testing\TestCase;
 use Tests\CreatesApplication;
 

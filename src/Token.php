@@ -1,12 +1,12 @@
 <?php
 
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
-use HaiXin\GeTui\Traits\HasResponse;
-use HaiXin\GeTui\Traits\Signature;
+use Tomeet\GeTui\Traits\HasResponse;
+use Tomeet\GeTui\Traits\Signature;
 use Illuminate\Contracts\Cache\Repository;
 use Psr\SimpleCache\InvalidArgumentException;
 

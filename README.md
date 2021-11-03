@@ -71,7 +71,7 @@ $tags->unbind(tag,[device1,device2,device3,...]);
 ``` php
 $user = $pusher->user;
 
-$user->count(\HaiXin\GeTui\Helper\Filter $filter);
+$user->count(\Tomeet\GeTui\Helper\Filter $filter);
 // 查询用户信息
 $user->detail(device1,device2,device3,...); 
 $user->detail([device1,device2,device3,...]); 
@@ -143,7 +143,7 @@ $task->progress(device,task);
 ### filter
 
 ```php
-$filter = new \HaiXin\GeTui\Helper\Filter();
+$filter = new \Tomeet\GeTui\Helper\Filter();
 
 // 仅支持以下 4种方式
 // 'phone'=> 'phone_type',
@@ -167,7 +167,7 @@ $message->body();
 ...
 $pusher->message($message);
 
-use HaiXin\GeTui\Helper\Message;
+use Tomeet\GeTui\Helper\Message;
 $pusher->message(function(Message $message){
   $message->title();
   $message->body();
@@ -185,7 +185,7 @@ $channel->body();
 ...
 $pusher->channel($channel);
 
-use HaiXin\GeTui\Helper\Channel;
+use Tomeet\GeTui\Helper\Channel;
 $pusher->channel(function(Channel $channel){
   $channel->title();
   $channel->body();
@@ -201,7 +201,7 @@ $audience = $pusher->audience();
 $audience->device($device);
 $pusher->audience($audience);
 
-use HaiXin\GeTui\Helper\Audience;
+use Tomeet\GeTui\Helper\Audience;
 $pusher->audience(function(Audience $audience){
 	$audience->device($device);
   ...
@@ -230,7 +230,7 @@ $broadcast->tags->extras($extras)
 $broadcast->filter->extras($extras)
   ->title($title)
   ->body($body)
-  ->audience(\HaiXin\GeTui\Helper\Filter $filter)
+  ->audience(\Tomeet\GeTui\Helper\Filter $filter)
   ->submit(); 
 ```
 

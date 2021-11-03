@@ -1,9 +1,9 @@
 <?php
 
 
-namespace HaiXin\GeTui\Helper;
+namespace Tomeet\GeTui\Helper;
 
-use HaiXin\GeTui\Interfaces\NotPushInterface;
+use Tomeet\GeTui\Interfaces\NotPushInterface;
 
 class Audience implements NotPushInterface
 {

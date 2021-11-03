@@ -1,6 +1,6 @@
 <?php
 
-namespace HaiXin\GeTui\Traits;
+namespace Tomeet\GeTui\Traits;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
-use HaiXin\GeTui\Group\Alias;
-use HaiXin\GeTui\Group\Create;
-use HaiXin\GeTui\Group\Device;
-use HaiXin\GeTui\Traits\Bus;
+use Tomeet\GeTui\Group\Alias;
+use Tomeet\GeTui\Group\Create;
+use Tomeet\GeTui\Group\Device;
+use Tomeet\GeTui\Traits\Bus;
 
 /**
  * Class Group
@@ -14,7 +14,7 @@ use HaiXin\GeTui\Traits\Bus;
  * @property Create $create
  * @property Device $device
  * @property Alias  $alias
- * @package HaiXin\GeTui
+ * @package Tomeet\GeTui
  */
 class Group
 {

@@ -1,16 +1,16 @@
 <?php
 
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
 
-use HaiXin\GeTui\Report\Day;
-use HaiXin\GeTui\Report\Group;
-use HaiXin\GeTui\Report\Online;
-use HaiXin\GeTui\Report\Remainder;
-use HaiXin\GeTui\Report\Task;
-use HaiXin\GeTui\Report\User;
-use HaiXin\GeTui\Traits\Bus;
+use Tomeet\GeTui\Report\Day;
+use Tomeet\GeTui\Report\Group;
+use Tomeet\GeTui\Report\Online;
+use Tomeet\GeTui\Report\Remainder;
+use Tomeet\GeTui\Report\Task;
+use Tomeet\GeTui\Report\User;
+use Tomeet\GeTui\Traits\Bus;
 
 
 /**
@@ -22,7 +22,7 @@ use HaiXin\GeTui\Traits\Bus;
  * @method array user($date) 调用此接口可以获取某个应用单日的用户数据用户数据包括：新增用户数，累计注册用户总数，在线峰值，日联网用户数目前只支持查询非当天的数据
  * @method array online() 查询当前时间一天内的在线用户数10分钟一个点，1个小时六个点
  *
- * @package HaiXin\GeTui
+ * @package Tomeet\GeTui
  */
 class Report
 {

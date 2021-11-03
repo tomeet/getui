@@ -1,12 +1,12 @@
 <?php
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
 use DateTime;
 use Exception;
-use HaiXin\GeTui\Helper\Audience;
-use HaiXin\GeTui\Helper\Channel;
-use HaiXin\GeTui\Helper\Message;
+use Tomeet\GeTui\Helper\Audience;
+use Tomeet\GeTui\Helper\Channel;
+use Tomeet\GeTui\Helper\Message;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Support\Str;
 use RuntimeException;
@@ -23,7 +23,7 @@ use RuntimeException;
  * @property Group     $group     针对list推送
  * @property Single    $single    针对单个用户推送
  * @property Pipeline  $pipeline  针对多个用户推送
- * @package HaiXin\GeTui
+ * @package Tomeet\GeTui
  */
 class GeTui
 {

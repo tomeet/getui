@@ -1,6 +1,6 @@
 <?php
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;

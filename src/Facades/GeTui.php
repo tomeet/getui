@@ -1,19 +1,19 @@
 <?php
 
-namespace HaiXin\GeTui\Facades;
+namespace Tomeet\GeTui\Facades;
 
-use HaiXin\GeTui\Alias;
-use HaiXin\GeTui\Broadcast;
-use HaiXin\GeTui\Group;
-use HaiXin\GeTui\Helper\Audience;
-use HaiXin\GeTui\Helper\Channel;
-use HaiXin\GeTui\Helper\Message;
-use HaiXin\GeTui\Pipeline;
-use HaiXin\GeTui\Report;
-use HaiXin\GeTui\Single;
-use HaiXin\GeTui\Tags;
-use HaiXin\GeTui\Task;
-use HaiXin\GeTui\User;
+use Tomeet\GeTui\Alias;
+use Tomeet\GeTui\Broadcast;
+use Tomeet\GeTui\Group;
+use Tomeet\GeTui\Helper\Audience;
+use Tomeet\GeTui\Helper\Channel;
+use Tomeet\GeTui\Helper\Message;
+use Tomeet\GeTui\Pipeline;
+use Tomeet\GeTui\Report;
+use Tomeet\GeTui\Single;
+use Tomeet\GeTui\Tags;
+use Tomeet\GeTui\Task;
+use Tomeet\GeTui\User;
 use Illuminate\Support\Facades\Facade;
 
 /**
@@ -31,7 +31,7 @@ use Illuminate\Support\Facades\Facade;
  * @method Message message() 获得 Message 对象
  * @method Channel channel() 获得 Channel 对象
  * @method Audience audience() 获得 Audience 对象
- * @package HaiXin\GeTui\Facades
+ * @package Tomeet\GeTui\Facades
  */
 class GeTui extends Facade
 {

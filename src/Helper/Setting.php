@@ -1,7 +1,7 @@
 <?php
 
 
-namespace HaiXin\GeTui\Helper;
+namespace Tomeet\GeTui\Helper;
 
 class Setting
 {

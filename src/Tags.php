@@ -1,13 +1,13 @@
 <?php
 
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
 
-use HaiXin\GeTui\Tags\More;
-use HaiXin\GeTui\Tags\Single;
-use HaiXin\GeTui\Tags\Unbind;
-use HaiXin\GeTui\Traits\Bus;
+use Tomeet\GeTui\Tags\More;
+use Tomeet\GeTui\Tags\Single;
+use Tomeet\GeTui\Tags\Unbind;
+use Tomeet\GeTui\Traits\Bus;
 
 /**
  * Class Tags
@@ -15,7 +15,7 @@ use HaiXin\GeTui\Traits\Bus;
  * @method bool  single($device, array $tags) 一个用户绑定一批标签，此操作为覆盖操作，会删除历史绑定的标签；
  * @method array more  (string $tag, array $device) 一批用户绑定一个标签，此接口为增量
  * @method array unbind(string $tag, array $device) 解绑用户的某个标签属性，不影响其它标签
- * @package HaiXin\GeTui
+ * @package Tomeet\GeTui
  */
 class Tags
 {

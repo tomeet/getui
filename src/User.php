@@ -1,18 +1,18 @@
 <?php
 
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
 
-use HaiXin\GeTui\Helper\Filter;
-use HaiXin\GeTui\Traits\Bus;
-use HaiXin\GeTui\User\Badge;
-use HaiXin\GeTui\User\Black;
-use HaiXin\GeTui\User\Count;
-use HaiXin\GeTui\User\Detail;
-use HaiXin\GeTui\User\State;
-use HaiXin\GeTui\User\Tags;
-use HaiXin\GeTui\User\Unblack;
+use Tomeet\GeTui\Helper\Filter;
+use Tomeet\GeTui\Traits\Bus;
+use Tomeet\GeTui\User\Badge;
+use Tomeet\GeTui\User\Black;
+use Tomeet\GeTui\User\Count;
+use Tomeet\GeTui\User\Detail;
+use Tomeet\GeTui\User\State;
+use Tomeet\GeTui\User\Tags;
+use Tomeet\GeTui\User\Unblack;
 
 
 /**
@@ -25,7 +25,7 @@ use HaiXin\GeTui\User\Unblack;
  * @method array tags(string $device) 根据cid查询用户标签列表
  * @method array badge(int $badge, array $devices) 通过cid通知个推服务器当前iOS设备的角标情况
  *
- * @package HaiXin\GeTui
+ * @package Tomeet\GeTui
  */
 class User
 {

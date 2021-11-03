@@ -1,5 +1,5 @@
 <?php
-namespace HaiXin\GeTui\Interfaces;
+namespace Tomeet\GeTui\Interfaces;
 
 interface NotPushInterface
 {

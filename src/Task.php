@@ -1,14 +1,14 @@
 <?php
 
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
 
-use HaiXin\GeTui\Task\Destroy;
-use HaiXin\GeTui\Task\Progress;
-use HaiXin\GeTui\Task\State;
-use HaiXin\GeTui\Task\Stop;
-use HaiXin\GeTui\Traits\Bus;
+use Tomeet\GeTui\Task\Destroy;
+use Tomeet\GeTui\Task\Progress;
+use Tomeet\GeTui\Task\State;
+use Tomeet\GeTui\Task\Stop;
+use Tomeet\GeTui\Traits\Bus;
 
 /**
  * Class Task
@@ -17,7 +17,7 @@ use HaiXin\GeTui\Traits\Bus;
  * @property State    $state
  * @property Destroy  $destroy
  * @property Progress $progress
- * @package HaiXin\GeTui
+ * @package Tomeet\GeTui
  */
 class Task
 {

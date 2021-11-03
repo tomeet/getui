@@ -1,7 +1,7 @@
 <?php
 
 
-namespace HaiXin\GeTui\Traits;
+namespace Tomeet\GeTui\Traits;
 
 
 trait Rebound

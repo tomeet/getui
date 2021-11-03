@@ -1,15 +1,15 @@
 <?php
 
 
-namespace HaiXin\GeTui\User;
+namespace Tomeet\GeTui\User;
 
 
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\RequestOptions;
-use HaiXin\GeTui\GeTui;
-use HaiXin\GeTui\Helper\Filter;
-use HaiXin\GeTui\Traits\HasRequest;
-use HaiXin\GeTui\Traits\HasResponse;
+use Tomeet\GeTui\GeTui;
+use Tomeet\GeTui\Helper\Filter;
+use Tomeet\GeTui\Traits\HasRequest;
+use Tomeet\GeTui\Traits\HasResponse;
 
 class Count
 {

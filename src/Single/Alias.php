@@ -1,17 +1,17 @@
 <?php
 
 
-namespace HaiXin\GeTui\Single;
+namespace Tomeet\GeTui\Single;
 
 
 use GuzzleHttp\RequestOptions;
-use HaiXin\GeTui\Helper\Audience;
-use HaiXin\GeTui\Helper\Channel;
-use HaiXin\GeTui\Helper\Message;
-use HaiXin\GeTui\Helper\Setting;
-use HaiXin\GeTui\Traits\HasRequest;
-use HaiXin\GeTui\Traits\HasResponse;
-use HaiXin\GeTui\Traits\Payload;
+use Tomeet\GeTui\Helper\Audience;
+use Tomeet\GeTui\Helper\Channel;
+use Tomeet\GeTui\Helper\Message;
+use Tomeet\GeTui\Helper\Setting;
+use Tomeet\GeTui\Traits\HasRequest;
+use Tomeet\GeTui\Traits\HasResponse;
+use Tomeet\GeTui\Traits\Payload;
 
 /**
  * Class Alias
@@ -20,7 +20,7 @@ use HaiXin\GeTui\Traits\Payload;
  * @property Message  $message
  * @property Channel  $channel
  * @property Setting  $setting
- * @package HaiXin\GeTui\Single
+ * @package Tomeet\GeTui\Single
  */
 class Alias
 {

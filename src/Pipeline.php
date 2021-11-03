@@ -1,18 +1,18 @@
 <?php
 
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
-use HaiXin\GeTui\Pipeline\Alias;
-use HaiXin\GeTui\Pipeline\Device;
-use HaiXin\GeTui\Traits\Bus;
+use Tomeet\GeTui\Pipeline\Alias;
+use Tomeet\GeTui\Pipeline\Device;
+use Tomeet\GeTui\Traits\Bus;
 
 /**
  * Class Pipeline
  *
  * @property Device $device
  * @property Alias  $alias
- * @package HaiXin\GeTui
+ * @package Tomeet\GeTui
  */
 class Pipeline
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace HaiXin\GeTui\Traits;
+namespace Tomeet\GeTui\Traits;
 
 
-use HaiXin\GeTui\GeTui;
+use Tomeet\GeTui\GeTui;
 use RuntimeException;
 
 trait Bus

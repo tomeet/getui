@@ -1,15 +1,15 @@
 <?php
 
 
-namespace HaiXin\GeTui\Traits;
+namespace Tomeet\GeTui\Traits;
 
 
-use HaiXin\GeTui\GeTui;
-use HaiXin\GeTui\Helper\Audience;
-use HaiXin\GeTui\Helper\Channel;
-use HaiXin\GeTui\Helper\Filter;
-use HaiXin\GeTui\Helper\Message;
-use HaiXin\GeTui\Helper\Setting;
+use Tomeet\GeTui\GeTui;
+use Tomeet\GeTui\Helper\Audience;
+use Tomeet\GeTui\Helper\Channel;
+use Tomeet\GeTui\Helper\Filter;
+use Tomeet\GeTui\Helper\Message;
+use Tomeet\GeTui\Helper\Setting;
 use RuntimeException;
 
 /**
@@ -19,7 +19,7 @@ use RuntimeException;
  * @property Message  $message
  * @property Channel  $channel
  * @property Setting  $setting
- * @package HaiXin\GeTui\Traits
+ * @package Tomeet\GeTui\Traits
  */
 trait Payload
 {

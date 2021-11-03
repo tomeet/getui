@@ -2,9 +2,9 @@
 
 namespace Tests\GeTui;
 
-use HaiXin\GeTui\Helper\Audience;
-use HaiXin\GeTui\Helper\Channel;
-use HaiXin\GeTui\Helper\Message;
+use Tomeet\GeTui\Helper\Audience;
+use Tomeet\GeTui\Helper\Channel;
+use Tomeet\GeTui\Helper\Message;
 use Illuminate\Foundation\Testing\TestCase;
 use Tests\CreatesApplication;
 

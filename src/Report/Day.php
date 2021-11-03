@@ -1,13 +1,13 @@
 <?php
 
 
-namespace HaiXin\GeTui\Report;
+namespace Tomeet\GeTui\Report;
 
 
 use GuzzleHttp\Exception\GuzzleException;
-use HaiXin\GeTui\GeTui;
-use HaiXin\GeTui\Traits\HasRequest;
-use HaiXin\GeTui\Traits\HasResponse;
+use Tomeet\GeTui\GeTui;
+use Tomeet\GeTui\Traits\HasRequest;
+use Tomeet\GeTui\Traits\HasResponse;
 
 class Day
 {

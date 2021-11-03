@@ -1,11 +1,11 @@
 <?php
 
-namespace HaiXin\GeTui\Abstracts;
+namespace Tomeet\GeTui\Abstracts;
 
-use HaiXin\GeTui\Interfaces\PushInterface;
-use HaiXin\GeTui\Traits\HasRequest;
-use HaiXin\GeTui\Traits\HasResponse;
-use HaiXin\GeTui\Traits\Payload;
+use Tomeet\GeTui\Interfaces\PushInterface;
+use Tomeet\GeTui\Traits\HasRequest;
+use Tomeet\GeTui\Traits\HasResponse;
+use Tomeet\GeTui\Traits\Payload;
 
 abstract class Single implements PushInterface
 {

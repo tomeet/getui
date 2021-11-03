@@ -1,14 +1,14 @@
 <?php
 
 
-namespace HaiXin\GeTui;
+namespace Tomeet\GeTui;
 
 
-use HaiXin\GeTui\Alias\Bind;
-use HaiXin\GeTui\Alias\Destroy;
-use HaiXin\GeTui\Alias\Device;
-use HaiXin\GeTui\Alias\Unbind;
-use HaiXin\GeTui\Traits\Bus;
+use Tomeet\GeTui\Alias\Bind;
+use Tomeet\GeTui\Alias\Destroy;
+use Tomeet\GeTui\Alias\Device;
+use Tomeet\GeTui\Alias\Unbind;
+use Tomeet\GeTui\Traits\Bus;
 
 /**
  * Class Alias
@@ -19,7 +19,7 @@ use HaiXin\GeTui\Traits\Bus;
  * @method bool unbind(array $datum) $datum: [cid => alias] 批量解除别名与cid的关系
  * @method bool destroy(array $alias) 解绑所有与该别名绑定的cid
  *
- * @package HaiXin\GeTui
+ * @package Tomeet\GeTui
  */
 class Alias
 {
