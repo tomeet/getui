@@ -18,7 +18,7 @@ class GeTuiServiceProvider extends ServiceProvider
             $this->bootForConsole();
         }
     }
-    
+
     /**
      * Console-specific booting.
      *
@@ -28,10 +28,10 @@ class GeTuiServiceProvider extends ServiceProvider
     {
         // Publishing the configuration file.
         $this->publishes([
-            __DIR__.'/../config/getui.php' => config_path('getui.php'),
+            __DIR__ . '/../config/getui.php' => config_path('tomeet/getui.php'),
         ], 'getui.config');
     }
-    
+
     /**
      * Register any package services.
      *
@@ -39,14 +39,14 @@ class GeTuiServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/getui.php', 'getui');
-        
+        $this->mergeConfigFrom(__DIR__ . '/../config/getui.php', 'getui');
+
         // Register the service the package provides.
         $this->app->singleton('getui', function (Application $app) {
             return new GeTui($app['config']->get('getui'));
         });
     }
-    
+
     /**
      * Get the services provided by the provider.
      *
